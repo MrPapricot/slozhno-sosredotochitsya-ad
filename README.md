@@ -1,0 +1,1 @@
+https://github.com/MrPapricot/slozhno-sosredotochitsya-ad.git
