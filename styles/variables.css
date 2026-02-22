@@ -79,7 +79,10 @@
   /* ===== СЕТКА MAIN ===== */
   /* Основные блоки */
   --sd__main_block_flex-direction: column;
-  --sd__main_block_style_horizontal_inner_flex-direction: column;
+
+  --sd__main_block_style_horizontal_inner_grid-template-rows: repeat(3, min-content);
+  --sd__main_block_style_horizontal_inner_grid-template-columns: 1fr;
+
   --sd__main_block_grid-template-columns: 1fr;
   --sd__main_block_grid-template-rows: repeat(2, min-content);
 

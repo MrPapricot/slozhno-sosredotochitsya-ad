@@ -252,8 +252,9 @@ html, body {
 .main_block_style_horizontal_inner {
   grid-row: var(--sd__main_block_style_horizontal_inner_grid-row);
   grid-column: var(--sd__main_block_style_horizontal_inner_grid-column);
-  display: flex;
-  flex-direction: var(--sd__main_block_style_horizontal_inner_flex-direction);
+  display: grid;
+  grid-template-rows: var(--sd__main_block_style_horizontal_inner_grid-template-rows);
+  grid-template-columns: var(--sd__main_block_style_horizontal_inner_grid-template-columns);
   gap: 20px;
 }
 
@@ -473,5 +474,8 @@ html, body {
     --sd__header_theme-menu-list_align-self: start;
     --sd__header_theme-menu-list_justify-self: center;
     --sd__main_block_style_horizontal_inner_flex-direction: row;
+
+    --sd__main_block_style_horizontal_inner_grid-template-rows: 1fr;
+    --sd__main_block_style_horizontal_inner_grid-template-columns: repeat(3, 1fr);
   }
 }
