@@ -115,7 +115,7 @@ html, body {
   font-weight: var(--font_bold_font-weight);
   color: var(--td__header__and__footer_title_font_font-color);
   font-size: var(--sd__header__and__footer_font_font-size);
-  text-shadow: var(--header__and__foter_font_shadow_params);
+  text-shadow: var(--header_font_shadow_params);
   text-wrap: wrap;
   margin: 0;
   grid-row: var(--header_title_grid-row);
@@ -350,7 +350,7 @@ html, body {
   font-weight: var(--font_bold_font-weight);
   color: var(--td__header__and__footer_title_font_font-color);
   font-size: var(--sd__header__and__footer_font_font-size);
-  text-shadow: var(--header__and__foter_font_shadow_params);
+  text-shadow: var(--footer_font_shadow_params);
   text-wrap: wrap;
   margin: 0;
   grid-row: var(--header_title_grid-row);

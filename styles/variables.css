@@ -38,7 +38,8 @@
   --sd__header__and__footer_font_font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   
   /* Тени текста */
-  --header__and__foter_font_shadow_params: 4px 4px 0 var(--text_shadow_color);
+  --header_font_shadow_params: 4px 4px 0 var(--text_shadow_color);
+  --footer_font_shadow_params: 2px 2px 0 var(--text_shadow_color);
 
 
   /* ===== ОТСТУПЫ И РАЗМЕРЫ ===== */
