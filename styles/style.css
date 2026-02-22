@@ -122,7 +122,7 @@ html, body {
   grid-column: var(--sd__header_title_grid-column)
 }
 
-.header_text{
+.header_text {
   margin: 0;
   font-size: var(--font_font-size);
   font-family: var(--font_font-family);
@@ -132,7 +132,6 @@ html, body {
   font-weight: var(--font_bold_font-weight);
   line-height: var(--font_line-height);
   word-wrap: normal;
-  grid-row: 3 / span 1;
   grid-column: var(--sd__header_text_grid-column);
   grid-row: var(--sd__header_text_grid-row)
 }
