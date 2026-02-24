@@ -5,8 +5,8 @@ html, body {
 }
 
 .page {
+  justify-self: center;
   background-color: var(--td__background-color);
-  inline-size: 100vw;
   block-size: 100vh;
   margin: 0;
   box-sizing: border-box;
@@ -367,7 +367,7 @@ html, body {
   color: var(--td__main_text_font-color);
   font-weight: var(--font_font-weight);
   line-height: var(--font_line-height);
-  text-shadow: 2px 1px 0 var(--text_shadow_color);
+  text-shadow: 2px 2px 0 var(--text_shadow_color);
   text-decoration: none;
 }
 
