@@ -5,9 +5,9 @@ html, body {
 }
 
 .page {
-  justify-self: center;
   background-color: var(--td__background-color);
   block-size: 100vh;
+  justify-self: center;
   margin: 0;
   box-sizing: border-box;
   overflow-y: scroll;
