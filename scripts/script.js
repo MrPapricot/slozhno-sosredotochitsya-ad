@@ -23,9 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
       setActiveButton(themeButtons, chosenTheme);
     });
   });
-  const chosenTheme = 'light'
-  setTheme(chosenTheme);
-  setActiveButton(themeButtons, chosenTheme);
 });
 
 function setTheme(theme) {
