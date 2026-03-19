@@ -1,8 +1,8 @@
-html, body {
+/* html, body {
   overflow: hidden;
   margin: 0;
   padding: 0;
-}
+} */
 
 .page {
   background-color: var(--td__background-color);
@@ -16,11 +16,6 @@ html, body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
-  /* -ms-overflow-style: none;
-  &::-webkit-scrollbar {
-    display: none;
-  } */
 }
 
 .header {
