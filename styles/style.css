@@ -278,6 +278,7 @@
 
 .main_block_inner_block_text {
   padding: 0;
+  padding-right: 10px;
   margin: 0;
   font-size: var(--font_font-size);
   font-family: var(--font_font-family);
