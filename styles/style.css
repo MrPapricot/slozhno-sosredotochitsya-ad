@@ -400,7 +400,7 @@
 @media (width >= 768px) {
   :root {
     --sd__header__and__footer_font_font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    --sd__padding_size: 40px;
+    --sd__padding_size: 20px;
     --sd__header_bottom__and__footer_top_margin: 60px;
     --sd__header_template-columns-count: 2;
     --sd__header_theme-menu_grid-column: 1 / span 2;
@@ -429,6 +429,8 @@
     --sd__main_images-block_images_grid-template-rows: min-content 1fr min-content;
 
     --sd__main_images-block_gap: 20px;
+
+    --sd__main_gap: 80px;
   }
 
   .header_title {
