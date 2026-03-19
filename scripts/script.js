@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const currentTheme = [...document.documentElement.classList]
     .find((cn) => cn.startsWith('theme-'))
     ?.replace('theme-', '');
+  console.log('kagg')
   const themeButtons = [
     ...document.querySelectorAll('.header_theme-menu-button'),
   ];
