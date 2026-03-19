@@ -278,7 +278,6 @@
 
 .main_block_inner_block_text {
   padding: 0;
-  padding-right: 10px;
   margin: 0;
   font-size: var(--font_font-size);
   font-family: var(--font_font-family);
@@ -463,6 +462,10 @@
     grid-row: 3 / span 1;
     grid-column: 2 / span 2;
   }
+
+  .main_block_inner_block_text {
+    padding-right: 10px;
+  }
 }
 
 
@@ -475,5 +478,9 @@
 
     --sd__main_block_style_horizontal_inner_grid-template-rows: 1fr;
     --sd__main_block_style_horizontal_inner_grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .main_block_inner_block_text {
+    padding-right: 0;
   }
 }
