@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
       setActiveButton(themeButtons, chosenTheme);
     });
   });
-  const chosenTheme = 'auto'
+  const chosenTheme = 'light'
   setTheme(chosenTheme);
   setActiveButton(themeButtons, chosenTheme);
 });
