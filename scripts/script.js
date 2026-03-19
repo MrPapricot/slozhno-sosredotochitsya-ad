@@ -23,6 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
       setActiveButton(themeButtons, chosenTheme);
     });
   });
+  const chosenTheme = 'auto'
+  setTheme(chosenTheme);
+  setActiveButton(themeButtons, chosenTheme);
 });
 
 function setTheme(theme) {
