@@ -59,7 +59,7 @@
   /* Grid настройки */
   --header_tamplate-rows-count: 3;
   --sd__header_template-columns-count: 1;
-  --header_grid-template-rows: repeat(var(--header_tamplate-rows-count), 1fr);
+  --header_grid-template-rows: 1fr min-content 1fr;
   --header_grid-template-columns: repeat(var(--sd__header_template-columns-count), 1fr);
   
   /* Позиционирование элементов */
